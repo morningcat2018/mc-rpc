@@ -27,12 +27,16 @@ public class RpcServer {
     private ServiceInvoker serviceInvoker;
 
     public RpcServer() {
-
+        this.config = new RPCServerConfig();
+        init(config);
     }
 
     public RpcServer(RPCServerConfig config) {
         this.config = config;
+        init(config);
+    }
 
+    private void init(RPCServerConfig config){
         //net
         this.net = ReflectionUtils.newInstance(config.getTransportClass());
         this.net.init(config.getPort(), this.handler);

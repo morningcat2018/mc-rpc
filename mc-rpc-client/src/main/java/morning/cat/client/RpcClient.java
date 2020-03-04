@@ -9,6 +9,7 @@ import java.lang.reflect.Proxy;
 
 
 public class RpcClient {
+
     private RpcClientConfig config;
     private SerializationService serializationService;
     private TransportSelector selector;
@@ -17,9 +18,11 @@ public class RpcClient {
         this.config = config;
         this.serializationService = ReflectionUtils.newInstance(this.config.getSerializationServiceClass());
         this.selector = ReflectionUtils.newInstance(this.config.getSelectorClass());
-        this.selector.init(this.config.getServers(),
+        this.selector.init(
+                this.config.getServers(),
                 this.config.getConnectCount(),
-                this.config.getTransportClass());
+                this.config.getTransportClass()
+        );
 
     }
 
