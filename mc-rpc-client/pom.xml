@@ -18,10 +18,26 @@
             <artifactId>mc-rpc-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>morning.cat</groupId>
+            <artifactId>serialization-fastjson</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>morning.cat</groupId>
+            <artifactId>network-jetty</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
+
     </dependencies>
 
 

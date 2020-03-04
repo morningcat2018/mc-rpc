@@ -16,6 +16,7 @@
         <module>mc-rpc-codec</module>
         <module>mc-rpc-server</module>
         <module>mc-rpc-client</module>
+        <module>mc-rpc-protocol</module>
     </modules>
 
     <properties>

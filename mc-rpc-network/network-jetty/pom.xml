@@ -11,5 +11,25 @@
 
     <artifactId>network-jetty</artifactId>
 
+    <dependencies>
+
+
+        <dependency>
+            <groupId>morning.cat</groupId>
+            <artifactId>mc-rpc-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
