@@ -9,7 +9,7 @@ import morning.cat.demo.api.HelloService;
  * @author: morningcat.zhang
  * @date: 2020/3/4 12:08 PM
  */
-public class Main {
+public class ConsumerMain {
 
     public static void main(String[] args) {
         RpcClient client = new RpcClient(new RpcClientConfig());
