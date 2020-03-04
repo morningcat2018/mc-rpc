@@ -16,11 +16,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * @ClassName RemoteInvoker
- * @Description 调用远程服务的代理类
- * @Author 逝风无言
- * @Data 2020/2/26 17:37
- * @Version 1.0
+ * 调用远程服务的代理类
  **/
 @Slf4j
 public class RemoteInvoker implements InvocationHandler {

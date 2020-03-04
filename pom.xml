@@ -13,7 +13,6 @@
         <module>mc-rpc-commons</module>
         <module>mc-rpc-demo</module>
         <module>mc-rpc-network</module>
-        <module>mc-rpc-codec</module>
         <module>mc-rpc-server</module>
         <module>mc-rpc-client</module>
         <module>mc-rpc-protocol</module>

@@ -11,5 +11,21 @@
 
     <artifactId>demo-producer</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>demo-api</artifactId>
+            <groupId>morning.cat</groupId>
+            <version>${project.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <artifactId>mc-rpc-server</artifactId>
+            <groupId>morning.cat</groupId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+
 
 </project>

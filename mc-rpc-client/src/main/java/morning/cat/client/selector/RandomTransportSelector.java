@@ -9,13 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * @ClassName RandomTransportSelector
- * @Description TODO
- * @Author 逝风无言
- * @Data 2020/2/26 14:32
- * @Version 1.0
- **/
 @Slf4j
 public class RandomTransportSelector implements TransportSelector {
 
