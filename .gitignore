@@ -84,3 +84,11 @@ target
 将删除 mc-rpc-server/target/classes/
 将删除 mc-rpc-server/target/maven-archiver/
 将删除 mc-rpc-server/target/maven-status/
+将删除 mc-rpc-demo/demo-api/src/main/resources/
+将删除 mc-rpc-demo/demo-api/src/test/
+将删除 mc-rpc-demo/demo-consumer/src/main/resources/
+将删除 mc-rpc-demo/demo-consumer/src/test/
+将删除 mc-rpc-demo/demo-producer/src/main/resources/
+将删除 mc-rpc-demo/demo-producer/src/test/
+将删除 mc-rpc-server/src/main/resources/
+将删除 mc-rpc-server/src/test/
